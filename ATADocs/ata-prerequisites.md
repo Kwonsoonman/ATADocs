@@ -275,8 +275,8 @@ The following table lists the minimum ports that the ATA Lightweight Gateway req
 > [!NOTE]
 > As part of the resolution process performed by the ATA Lightweight Gateway, the following ports need to be open inbound on devices on the network from the ATA Lightweight Gateways.
 >
-> -   NTLM over RPC
-> -   NetBIOS
+> -   NTLM over RPC(TCP port 135)
+> -   NetBIOS(UDP port 137)
 
 ### Certificates
 Make sure the ATA Center has access to your CRL distribution point. If the ATA Lightweight Gateways don't have Internet access, follow the procedure to manually import a CRL, taking care to install the all the CRL distribution points for the whole chain.
